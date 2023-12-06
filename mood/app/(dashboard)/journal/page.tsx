@@ -16,10 +16,6 @@ const getEntries = async () => {
     },
   });
 
-  await analyze(
-    "Today was a no good very bad day! I accidentally swallowed a fly then tripped on a bannana! :)"
-  );
-
   return entries;
 };
 
