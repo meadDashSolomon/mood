@@ -16,7 +16,7 @@ const getEntries = async () => {
     },
   });
 
-  await analyze("create me a vue component that renders a counting number");
+  // await analyze()
 
   return entries;
 };
